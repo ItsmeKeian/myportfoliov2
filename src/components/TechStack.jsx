@@ -17,7 +17,7 @@ export default function TechStack() {
         </div>
 
         <div>
-        <h2 className="mb-4 font-semibold">Skills & Tools (Updated)</h2>
+        <h2 className="mb-4 font-semibold">Skills & Tools</h2>
 
           <div className="flex flex-wrap gap-2">
             {[ "Cursor", "GitHub", "Microsoft Office", "CapCut", "Visual Studio Code"].map(tool => (
