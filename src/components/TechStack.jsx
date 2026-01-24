@@ -17,7 +17,8 @@ export default function TechStack() {
         </div>
 
         <div>
-          <p className="mb-2 font-medium">Software & Tools</p>
+        <h2 className="mb-4 font-semibold">Skills & Tools (Updated)</h2>
+
           <div className="flex flex-wrap gap-2">
             {[ "Cursor", "GitHub", "Microsoft Office", "CapCut", "Visual Studio Code"].map(tool => (
               <span key={tool} className="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800">
