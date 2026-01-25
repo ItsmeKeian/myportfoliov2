@@ -12,11 +12,6 @@ import Education from "./components/Education";
 export default function App() {
   const [dark, setDark] = useState(false);
 
-  useEffect(() => {
-    if (localStorage.getItem("theme") === "dark") {
-      setDark(true);
-    }
-  }, []);
 
   useEffect(() => {
     localStorage.setItem("theme", dark ? "dark" : "light");
@@ -24,11 +19,11 @@ export default function App() {
 
   return (
     <div className={dark ? "dark" : ""}>
-      <div className="min-h-screen bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <div className="min-h-screen text-gray-900 bg-gray-50 transition-colors duration-300 dark:bg-slate-950 dark:text-gray-100">
         <Header dark={dark} setDark={setDark} />
 
-        <main className="max-w-8xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="md:col-span-2 space-y-6">
+        <main className="grid grid-cols-1 gap-4 p-6 mx-auto max-w-8xl md:grid-cols-3">
+          <div className="space-y-6 md:col-span-2">
              <About />
             <Education />
             <TechStack />
@@ -41,7 +36,7 @@ export default function App() {
           </div>
         </main>
 
-        <footer className="text-center text-xs text-gray-500 dark:text-gray-400 py-6">
+        <footer className="py-6 text-xs text-center text-gray-500 dark:text-gray-400">
           © 2026 Keian Gacillos
         </footer>
       </div>
