@@ -6,7 +6,7 @@ export default function TechStack() {
       <div className="space-y-4 text-sm">
 
         <div>
-          <p className="mb-2 font-medium">Programming & Web</p>
+          <p className="mb-2 font-medium">Programming Language</p>
           <div className="flex flex-wrap gap-2">
             {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Bootstrap", "SQL", "PHP", "MySQL"].map(skill => (
               <span key={skill} className="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800">
@@ -17,7 +17,7 @@ export default function TechStack() {
         </div>
 
         <div>
-        <h2 className="mb-4 font-semibold">Skills & Tools</h2>
+        <h2 className="mb-4 font-semibold">Tools</h2>
 
           <div className="flex flex-wrap gap-2">
             {[ "Cursor", "GitHub", "Microsoft Office", "CapCut", "Visual Studio Code"].map(tool => (
