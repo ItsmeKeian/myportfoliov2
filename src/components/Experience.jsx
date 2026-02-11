@@ -42,7 +42,7 @@ const experience = [
       "Collaborated with developers and assisted in client-related meetings.",
     ],
   },
-];
+]
 
 export default function Experience() {
   return (
@@ -50,13 +50,15 @@ export default function Experience() {
       id="experience"
       className="p-5 bg-white rounded-xl border shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:p-6"
     >
-      <h2 className="mb-4 text-lg font-semibold">Experience</h2>
+      <h2 className="mb-4 text-lg font-semibold text-slate-900 dark:text-white">
+        Experience
+      </h2>
 
       <div className="space-y-6">
         {experience.map((job) => (
           <div
             key={job.company}
-            className="relative p-4 rounded-lg border border-gray-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-800"
+            className="p-4 rounded-lg border border-gray-200 transition-all duration-300 bg-slate-50 hover:-translate-y-1 hover:border-violet-500/60 hover:shadow-md dark:border-slate-700 dark:bg-slate-800 dark:hover:border-violet-500/60"
           >
             <div className="flex flex-col gap-1">
               <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
@@ -68,14 +70,16 @@ export default function Experience() {
               </p>
             </div>
 
-            <ul className="pl-4 mt-3 space-y-1 text-xs list-disc text-slate-700 dark:text-slate-200">
+            <ul className="pl-4 mt-3 space-y-2 text-xs list-disc text-slate-700 dark:text-slate-200">
               {job.bullets.map((b, idx) => (
-                <li key={idx}>{b}</li>
+                <li key={idx} className="leading-relaxed">
+                  {b}
+                </li>
               ))}
             </ul>
           </div>
         ))}
       </div>
     </section>
-  );
+  )
 }
