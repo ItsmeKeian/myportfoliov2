@@ -70,7 +70,7 @@ export default function About() {
             <FaLaptopCode />
           </div>
           <p className="text-lg font-semibold text-slate-900 dark:text-white">
-            3+
+            1+
           </p>
           <p className="text-xs text-slate-600 dark:text-slate-300">
             Years Experience
@@ -86,7 +86,7 @@ export default function About() {
             Full-Stack
           </p>
           <p className="text-xs text-slate-600 dark:text-slate-300">
-            Web Development
+            Web Developer
           </p>
         </div>
 
