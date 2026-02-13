@@ -2,12 +2,12 @@ import { FaMoon, FaCog } from "react-icons/fa"
 
 export default function Header({ dark, setDark }) {
   const defaultImage = dark
-    ? "./src/images/profile.jpg"
-    : "./src/images/profile.jpg"
+    ? "/profile.jpg"
+    : "/profile.jpg"
 
   const hoverImage = dark
-    ? "./src/images/SUNG1.jpg"
-    : "./src/images/SUNGG.jpg"
+    ? "/SUNG1.jpg"
+    : "/SUNGG.jpg"
 
   return (
     <header className="w-full bg-white border-b border-slate-200 dark:border-slate-800 dark:bg-slate-950">
@@ -44,7 +44,7 @@ export default function Header({ dark, setDark }) {
               <span className="inline-flex items-center rounded-full border border-blue-100 bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-600
                 dark:border-blue-800 dark:bg-blue-900/40 dark:text-blue-300"
               >
-                Available for Work
+                Available for Hire
               </span>
             </div>
 
@@ -59,7 +59,7 @@ export default function Header({ dark, setDark }) {
             {/* Buttons */}
             <div className="flex gap-3 mt-4">
               <a
-                href="/resume.pdf"
+                href="/keiancamposanogacillosresume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex justify-center items-center px-5 py-2.5 text-sm font-semibold text-white bg-violet-600 rounded-xl shadow-sm
@@ -70,14 +70,15 @@ export default function Header({ dark, setDark }) {
               </a>
 
               <a
-                href="mailto:gacilloskeian02@gmail.com"
-                className="inline-flex justify-center items-center px-5 py-2.5 text-sm font-semibold bg-white rounded-xl border border-slate-300 text-slate-700 shadow-sm
-                transition-all duration-300
-                hover:-translate-y-1 hover:shadow-md hover:border-violet-400 hover:bg-slate-50 active:scale-[0.98]
-                dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 dark:hover:border-violet-500"
-              >
-                Send Email
-              </a>
+                  href="mailto:contact@keiancamposanogacillos.online?subject=Portfolio%20Inquiry"
+                  className="inline-flex justify-center items-center px-5 py-2.5 text-sm font-semibold bg-white rounded-xl border border-slate-300 text-slate-700 shadow-sm
+                  transition-all duration-300
+                  hover:-translate-y-1 hover:shadow-md hover:border-violet-400 hover:bg-slate-50 active:scale-[0.98]
+                  dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 dark:hover:border-violet-500"
+                >
+                  Send Email
+                </a>
+
             </div>
           </div>
         </div>

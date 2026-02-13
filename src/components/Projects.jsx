@@ -3,49 +3,53 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 const projects = [
   {
-    title: "DTR Web App",
-    subtitle: "Attendance & Time Tracking System",
+    title: "East Wing Restaurant & Events",
+    subtitle: "Restaurant Website & Online Booking",
     description:
-      "Web-based DTR system for logging time-in/time-out, viewing attendance history, and exporting reports.",
-    tech: ["React", "Vite", "Tailwind", "Node.js", "MySQL"],
-    image: "/projects/dtr-web-app.png",
+      "Modern responsive website for East Wing Restaurant & Event Place with service showcase, gallery, and online reservation/booking system.",
+    tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "MySQL", "AJAX"],
+    image: "/eastwings.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
   },
   {
-    title: "Food Ordering System",
-    subtitle: "Cart & Order Management",
+    title: "Barangay Connect",
+    subtitle: "Community Portal & Information System",
     description:
-      "Online food ordering platform with menu browsing, cart, and order tracking features.",
-    tech: ["React", "Tailwind", "Firebase"],
-    image: "/projects/food-ordering.png",
+      "A centralized barangay website platform featuring announcements, job board, health services, community events, and a contact system with admin backend for managing inquiries and updates.",
+    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "AJAX", "Bootstrap","jQuery"],
+    image: "/brgyconnect.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
   },
+  
   {
-    title: "Portfolio Website",
-    subtitle: "Personal Portfolio",
+    title: "Borongan Customer Segmentation",
+    subtitle: "Business Analytics & Customer Classification System",
     description:
-      "Responsive portfolio site to showcase projects, skills, and work experience.",
-    tech: ["React", "Tailwind", "Vite"],
-    image: "/projects/portfolio.png",
+      "A web-based customer segmentation system designed to help establishments categorize customers, analyze purchasing behavior, and generate insights for better business decision-making, with admin and establishment user roles.",
+      tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "PHP", "MySQL", "AJAX"],
+    image: "/borongancustomersegmentation.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
   },
+  
+  
   {
-    title: "Queuing System",
-    subtitle: "Capstone Project",
+    title: "BFP Business Establishment Mapping & Tagging",
+    subtitle: "Fire Safety Monitoring System (Capstone Project)",
     description:
-      "Queue management system designed to improve service flow and reduce waiting times.",
-    tech: ["React", "Node.js", "MySQL"],
-    image: "/projects/queuing-system.png",
+      "A web-based mapping and tagging system developed for BFP Dolores, Eastern Samar to manage business establishment records, monitor fire safety compliance, and improve inspection tracking through organized digital reporting.",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL", "AJAX", "jQuery"],
+    image: "/bfp.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
   },
+  
 
   // Other projects
   {

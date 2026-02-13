@@ -17,49 +17,62 @@ export default function About() {
       </h2>
 
       <div className="space-y-4 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-        <p>
-          I’m a{" "}
-          <span className="font-medium text-slate-900 dark:text-white">
-            BSIT graduate
-          </span>{" "}
-          and an aspiring{" "}
-          <span className="font-medium text-slate-900 dark:text-white">
-            Full-Stack Web Developer
-          </span>{" "}
-          with hands-on experience in building responsive websites, interactive
-          user interfaces, and database-driven web applications.
-        </p>
+              <p>
+                I’m a{" "}
+                <span className="font-medium text-slate-900 dark:text-white">
+                  BSIT graduate
+                </span>{" "}
+                and an{" "}
+                <span className="font-medium text-slate-900 dark:text-white">
+                  Aspiring Full-Stack Web Developer
+                </span>{" "}
+                with hands-on experience building responsive websites, interactive user
+                interfaces, and database-driven web applications. I enjoy creating modern
+                web solutions that are clean, functional, and easy to use.
+              </p>
 
-        <p>
-          I have worked on real projects using{" "}
-          <span className="font-medium text-slate-900 dark:text-white">
-            HTML, CSS, JavaScript, React, PHP, and MySQL
-          </span>{" "}
-          and I enjoy solving technical problems through clean code, efficient
-          debugging, and user-focused design. I also have experience in website
-          maintenance such as updating content, fixing layout issues, and
-          improving performance across different browsers and devices.
-        </p>
+              <p>
+                I have worked on real-world projects using{" "}
+                <span className="font-medium text-slate-900 dark:text-white">
+                  HTML, CSS, JavaScript, React, PHP, and MySQL
+                </span>
+                , where I handled both frontend and backend development. I’m comfortable
+                building responsive layouts, creating dynamic features, and connecting web
+                applications to databases to manage and display real data efficiently.
+              </p>
 
-        <p>
-          I’m familiar with tools and platforms such as{" "}
-          <span className="font-medium text-slate-900 dark:text-white">
-            Tailwind CSS, Git, GitHub, VS Code, WordPress, Hostinger, and jQuery
-          </span>
-          , and I continuously explore modern development practices to improve my
-          skills and deliver better solutions.
-        </p>
+              <p>
+                I enjoy solving technical problems through clean code, logical debugging,
+                and user-focused design. I also have experience maintaining websites by
+                updating content, fixing layout and functionality issues, improving page
+                performance, and ensuring compatibility across different browsers and
+                devices.
+              </p>
 
-        <p>
-          I’m currently looking for opportunities as a{" "}
-          <span className="font-medium text-slate-900 dark:text-white">
-            Junior Web Developer / IT Support
-          </span>{" "}
-          where I can grow professionally, contribute to a collaborative team,
-          and gain more real-world experience in building and supporting web
-          systems.
-        </p>
-      </div>
+              <p>
+                I have practical experience using{" "}
+                <span className="font-medium text-slate-900 dark:text-white">
+                  Tailwind CSS, Git, GitHub, VS Code, WordPress, Hostinger, jQuery, and AJAX
+                </span>{" "}
+                in building and managing projects. I use Git and GitHub for version control,
+                collaboration, and deployment workflows, and I apply modern development
+                practices to keep projects organized, scalable, and maintainable.
+              </p>
+
+              <p>
+                I’m currently{" "}
+                <span className="font-medium text-slate-900 dark:text-white">
+                  available for freelance projects
+                </span>{" "}
+                and open to full-time opportunities where I can contribute as a Full-Stack
+                Web Developer. My goal is to continue growing professionally while building
+                reliable, efficient, and user-friendly web applications for clients and
+                teams.
+              </p>
+            </div>
+
+
+
 
       {/* Quick highlights */}
       <div className="grid gap-4 mt-6 sm:grid-cols-3">
