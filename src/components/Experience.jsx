@@ -6,7 +6,7 @@ const experience = [
     bullets: [
       "Designed, developed, and maintained responsive websites using HTML, CSS, JavaScript, PHP, and MySQL.",
       "Handled bug fixing, website updates, and performance optimization for better user experience.",
-      "Managed MySQL databases for storing client and program records.",
+      "Managed MySQL/Oracle databases for storing client and program records.",
       "Performed system maintenance including backups and monitoring uptime.",
     ],
   },

@@ -8,7 +8,7 @@ const projects = [
     description:
       "Modern responsive website for East Wing Restaurant & Event Place with service showcase, gallery, and online reservation/booking system.",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "MySQL", "AJAX"],
-    image: "/eastwings.jpg",
+    image: "/images/eastwings.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A centralized barangay website platform featuring announcements, job board, health services, community events, and a contact system with admin backend for managing inquiries and updates.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "AJAX", "Bootstrap","jQuery"],
-    image: "/brgyconnect.jpg",
+    image: "/images/brgyconnect.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
@@ -31,7 +31,7 @@ const projects = [
     description:
       "A web-based customer segmentation system designed to help establishments categorize customers, analyze purchasing behavior, and generate insights for better business decision-making, with admin and establishment user roles.",
       tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "PHP", "MySQL", "AJAX"],
-    image: "/borongancustomersegmentation.jpg",
+    image: "/images/borongancustomersegmentation.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
@@ -44,7 +44,7 @@ const projects = [
     description:
       "A web-based mapping and tagging system developed for BFP Dolores, Eastern Samar to manage business establishment records, monitor fire safety compliance, and improve inspection tracking through organized digital reporting.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL", "AJAX", "jQuery"],
-    image: "/bfp.jpg",
+    image: "/images/bfp.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: true,
@@ -58,7 +58,7 @@ const projects = [
     description:
       "A simple inventory management system for tracking products and monitoring stock levels.",
     tech: ["PHP", "MySQL", "Bootstrap"],
-    image: "/projects/inventory.png",
+    image: "/images/bfp.jpg",
     demoUrl: "#",
     githubUrl: "#",
     featured: false,

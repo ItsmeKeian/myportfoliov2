@@ -2,12 +2,13 @@ import { useMemo } from "react"
 import { FaImages } from "react-icons/fa"
 
 const galleryImages = [
-  "/gallery/1.jpg",
-  "/gallery/2.jpg",
-  "/gallery/3.jpg",
-  "/gallery/4.jpg",
-  "/gallery/5.jpg",
-  "/gallery/6.jpg",
+  "/images/image1.jpg",
+  "/images/image2.jpg",
+  "/images/image3.jpg",
+  "/images/image4.jpg",
+  "/images/image5.jpg",
+  "/images/image6.jpg",
+  "/images/image7.jpg",
 ]
 
 export default function Gallery() {

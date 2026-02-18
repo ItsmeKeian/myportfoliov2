@@ -2,12 +2,12 @@ import { FaMoon, FaCog } from "react-icons/fa"
 
 export default function Header({ dark, setDark }) {
   const defaultImage = dark
-    ? "/profile.jpg"
-    : "/profile.jpg"
+    ? "/images/profile.jpg"
+    : "/images/profile.jpg"
 
   const hoverImage = dark
-    ? "/SUNG1.jpg"
-    : "/SUNGG.jpg"
+    ? "/images/SUNG1.jpg"
+    : "/images/SUNGG.jpg"
 
   return (
     <header className="w-full bg-white border-b border-slate-200 dark:border-slate-800 dark:bg-slate-950">
