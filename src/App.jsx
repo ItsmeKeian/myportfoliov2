@@ -16,6 +16,8 @@ import Gallery from "./components/Gallery"
 import AllProjects from "./pages/AllProjects"
 import AllCertifications from "./pages/AllCertifications"
 
+import ChatWidget from "./components/ChatWidget"
+
 function HomePage({ dark, setDark }) {
   return (
     <div className="relative min-h-screen text-gray-900 bg-gray-50 transition-colors duration-300 dark:bg-slate-950 dark:text-gray-100">
@@ -91,6 +93,9 @@ export default function App() {
         <Route path="/projects" element={<AllProjects />} />
         <Route path="/certifications" element={<AllCertifications />} />
       </Routes>
+
+        <ChatWidget/>
+
     </Router>
   )
 }
