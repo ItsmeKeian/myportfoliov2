@@ -60,7 +60,7 @@ function HomePage({ dark, setDark }) {
 
         {/* Footer */}
         <footer className="py-6 text-xs text-center text-gray-500 dark:text-gray-400">
-          © {new Date().getFullYear()} Keian Gacillos. All rights reserved.
+          © {new Date().getFullYear()} Keian Camposano Gacillos. All rights reserved.
         </footer>
 
       </div>

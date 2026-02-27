@@ -9,8 +9,8 @@ const projects = [
       "Modern responsive website for East Wing Restaurant & Event Place with service showcase, gallery, and online reservation/booking system.",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "MySQL", "AJAX"],
     image: "/images/eastwings.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://www.keiancamposanogacillos.online/eastwing",
+    githubUrl: "https://github.com/ItsmeKeian/EastWing-Website",
     featured: true,
   },
   {
@@ -20,8 +20,8 @@ const projects = [
       "A centralized barangay website platform featuring announcements, job board, health services, community events, and a contact system with admin backend for managing inquiries and updates.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "AJAX", "Bootstrap","jQuery"],
     image: "/images/brgyconnect.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://www.keiancamposanogacillos.online/brgyconnect",
+    githubUrl: "https://github.com/ItsmeKeian/Brgy-Connect-Website",
     featured: true,
   },
   
@@ -30,10 +30,10 @@ const projects = [
     subtitle: "Business Analytics & Customer Classification System",
     description:
       "A web-based customer segmentation system designed to help establishments categorize customers, analyze purchasing behavior, and generate insights for better business decision-making, with admin and establishment user roles.",
-      tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "PHP", "MySQL", "AJAX"],
+      tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL", "AJAX", "jQuery"],
     image: "/images/borongancustomersegmentation.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://www.boronganinsights.com",
+    githubUrl: "https://github.com/ItsmeKeian/borongancustomersegmentation",
     featured: true,
   },
   
@@ -45,8 +45,8 @@ const projects = [
       "A web-based mapping and tagging system developed for BFP Dolores, Eastern Samar to manage business establishment records, monitor fire safety compliance, and improve inspection tracking through organized digital reporting.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL", "AJAX", "jQuery"],
     image: "/images/bfp.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://www.keiancamposanogacillos.online/bfp",
+    githubUrl: "https://github.com/ItsmeKeian/BFP-MyfirstWebApplication",
     featured: true,
   },
   

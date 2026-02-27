@@ -106,7 +106,7 @@ export default function Contact() {
       {/* Buttons */}
       <div className="flex flex-col gap-2 mt-5 sm:flex-row">
         <a
-          href="mailto:gacilloskeian02@gmail.com"
+          href="mailto:contact@keiancamposanogacillos.online?subject=Portfolio%20Inquiry"
           className="group inline-flex justify-center items-center gap-2 px-5 py-2.5 w-full text-sm font-medium text-white rounded-lg
           transition-all duration-300
           bg-violet-600 hover:bg-violet-700 hover:-translate-y-0.5 hover:shadow-md
@@ -118,7 +118,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="/resume.pdf"
+          href="/keiancamposanogacillosresume.pdf"
           target="_blank"
           rel="noreferrer"
           className="group inline-flex justify-center items-center gap-2 px-5 py-2.5 w-full text-sm font-medium rounded-lg

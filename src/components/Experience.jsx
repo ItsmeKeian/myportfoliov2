@@ -11,14 +11,15 @@ const experience = [
     ],
   },
   {
+
     company: "Eastern Samar Provincial Information Office",
-    role: "Web Maintenance / IT Support",
+    role: "Post Production Editor",
     date: "July 2024 – January 2025",
     bullets: [
-      "Updated and maintained website content including text, images, and page layouts.",
-      "Fixed minor layout and functionality issues to improve usability and performance.",
-      "Provided IT support and troubleshooting assistance during office operations.",
-      "Assisted in media-related tasks such as photography and video editing.",
+      "Covered official provincial government events including AICS and TUPAD payout activities.",
+      "Captured and edited photo and video content using CapCut for public information dissemination.",
+      "Conducted field coverage and assisted in interviews with beneficiaries and government personnel.",
+      
     ],
   },
   {
