@@ -52,6 +52,17 @@ const projects = [
     featured: true,
   },
   {
+    title: "SmartDTR",
+    subtitle: "Web-Based Attendance & Daily Time Record Management System",
+    description:
+      "A web-based attendance management system that enables employees to record time-in and time-out digitally while allowing administrators to manage users, monitor attendance logs, and automatically generate accurate Daily Time Records (DTR) for payroll and reporting purposes.",
+    tech: ["React JS", "Tailwind CSS", "PHP", "MySQL", "REST API"],
+    image: "/images/smartdtr.jpg",
+    demoUrl: "https://www.keiancamposanogacillos.online/smartdtr",
+    githubUrl: "https://github.com/ItsmeKeian/online-attendance-with-automatic-DTR",
+    featured: true,
+  },
+  {
     title: "Inventory System",
     subtitle: "Stock & Product Monitoring",
     description:

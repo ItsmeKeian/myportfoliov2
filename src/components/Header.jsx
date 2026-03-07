@@ -53,7 +53,7 @@ export default function Header({ dark, setDark }) {
             </p>
 
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 sm:text-base">
-              BSIT Graduate | Aspiring Full-Stack Web Developer
+              BSIT Graduate | Full-Stack Web Developer
             </p>
 
             {/* Buttons */}

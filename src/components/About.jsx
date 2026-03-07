@@ -22,9 +22,9 @@ export default function About() {
                 <span className="font-medium text-slate-900 dark:text-white">
                   BSIT graduate
                 </span>{" "}
-                and an{" "}
+                and a{" "}
                 <span className="font-medium text-slate-900 dark:text-white">
-                  Aspiring Full-Stack Web Developer
+                  Full-Stack Web Developer
                 </span>{" "}
                 with hands-on experience building responsive websites, interactive user
                 interfaces, and database-driven web applications. I enjoy creating modern
