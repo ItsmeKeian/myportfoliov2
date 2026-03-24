@@ -63,14 +63,25 @@ const projects = [
     featured: true,
   },
   {
-    title: "Inventory System",
-    subtitle: "Stock & Product Monitoring",
+    title: "Municipal Aid Monitoring System",
+    subtitle: "Client Project • Currently in Development",
     description:
-      "A simple inventory management system for tracking products and monitoring stock levels.",
-    tech: ["PHP", "MySQL", "Bootstrap"],
-    image: "/projects/inventory.png",
-    demoUrl: "#",
-    githubUrl: "#",
+      "A web-based Municipal Aid Monitoring System built for a local government client to manage beneficiaries, monitor aid distribution, and generate reports. Designed to replace manual recording with a centralized database for better accuracy, transparency, and efficiency.",
+    tech: ["PHP", "MySQL", "JavaScript", "Bootstrap", "jQuery", "HTML", "CSS"],
+    image: "/images/mams-hernani.jpg",
+    demoUrl: "https://www.keiancamposanogacillos.online/mams-hernani/index.html",
+    githubUrl: "https://github.com/ItsmeKeian/MAMS-Hernani",
+  },
+  {
+    title: "Digital Inspection & Tax Mapping System",
+    subtitle: "Client Project • In Development",
+    description:
+      "A full-stack web application built for a local government office to manage business inspections, tax mapping, and compliance monitoring. The system features a centralized MySQL database, dynamic AJAX-based data handling, role-based user access, reporting module, and mapping integration for business location tracking. Designed to improve efficiency, accuracy, and transparency compared to manual processes.",
+    tech: [
+      "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "MySQL"],
+    image: "/images/ditms-borongan.png",
+    demoUrl: "https://keiancamposanogacillos.online/ditms-borongan/index.html",
+    githubUrl: "https://github.com/ItsmeKeian/DITMS-Borongan"
   },
   {
     title: "Online Voting System",
