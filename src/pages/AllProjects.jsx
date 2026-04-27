@@ -64,19 +64,19 @@ const projects = [
   },
   {
     title: "Municipal Aid Monitoring System",
-    subtitle: "Client Project • Currently in Development",
+    subtitle: "Client-Based Project • Ongoing Development",
     description:
-      "A web-based Municipal Aid Monitoring System built for a local government client to manage beneficiaries, monitor aid distribution, and generate reports. Designed to replace manual recording with a centralized database for better accuracy, transparency, and efficiency.",
+    "A web-based Municipal Aid Monitoring System developed for a client project intended for local government use. The system manages beneficiary records, tracks aid distribution, prevents duplicate entries, and generates reports using a centralized MySQL database. Built with PHP, JavaScript, jQuery, and Bootstrap to replace manual recording with a more efficient and organized web application.",
     tech: ["PHP", "MySQL", "JavaScript", "Bootstrap", "jQuery", "HTML", "CSS"],
     image: "/images/mams-hernani.jpg",
     demoUrl: "https://www.keiancamposanogacillos.online/mams-hernani/index.html",
     githubUrl: "https://github.com/ItsmeKeian/MAMS-Hernani",
   },
   {
-    title: "Digital Inspection & Tax Mapping System",
-    subtitle: "Client Project • In Development",
+    title: "Digital Inspection and Tax Mapping System",
+    subtitle: "Client-Based Capstone Project • Ongoing in Development",
     description:
-      "A full-stack web application built for a local government office to manage business inspections, tax mapping, and compliance monitoring. The system features a centralized MySQL database, dynamic AJAX-based data handling, role-based user access, reporting module, and mapping integration for business location tracking. Designed to improve efficiency, accuracy, and transparency compared to manual processes.",
+      "A web-based Digital Inspection and Tax Mapping System developed for a capstone project based on requirements from a local government office. The system is designed to digitize business inspection records, manage establishment data in a centralized MySQL database, support mapping of business locations, and generate inspection reports. Built using PHP, MySQL, JavaScript, jQuery, and AJAX to replace manual recording with a more efficient and organized web application.",
     tech: [
       "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "MySQL"],
     image: "/images/ditms-borongan.png",
